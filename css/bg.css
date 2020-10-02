@@ -14,19 +14,9 @@ body {
     animation: background 6s ease infinite;
 }
 
-@-webkit-keyframes background {
-    0%{background-position:0% 28%}
-    50%{background-position:100% 73%}
-    100%{background-position:0% 28%}
-}
-
-@-moz-keyframes background {
-    0%{background-position:0% 28%}
-    50%{background-position:100% 73%}
-    100%{background-position:0% 28%}
-}
-
-@keyframes background {
+@-webkit-keyframes background,
+@-moz-keyframes background,
+@keyframes background{
     0%{background-position:0% 28%}
     50%{background-position:100% 73%}
     100%{background-position:0% 28%}
